@@ -6,8 +6,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ARKit/ARKit.h>
+#import <SceneKit/SceneKit.h>
+#import "ModelCollectionViewCell.h"
+#import "Model3D.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, ARCoachingOverlayViewDelegate>
+
 
 
 @end

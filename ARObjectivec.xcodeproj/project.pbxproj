@@ -10,10 +10,15 @@
 		5BC50F2529396FBA005363B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC50F2429396FBA005363B1 /* AppDelegate.m */; };
 		5BC50F2829396FBA005363B1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC50F2729396FBA005363B1 /* SceneDelegate.m */; };
 		5BC50F2B29396FBA005363B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC50F2A29396FBA005363B1 /* ViewController.m */; };
-		5BC50F2E29396FBA005363B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F2C29396FBA005363B1 /* Main.storyboard */; };
 		5BC50F3029396FBC005363B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F2F29396FBC005363B1 /* Assets.xcassets */; };
 		5BC50F3329396FBC005363B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F3129396FBC005363B1 /* LaunchScreen.storyboard */; };
 		5BC50F3629396FBC005363B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC50F3529396FBC005363B1 /* main.m */; };
+		5BC50F4829397211005363B1 /* ModelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC50F4629397211005363B1 /* ModelCollectionViewCell.m */; };
+		5BC50F4929397211005363B1 /* ModelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F4729397211005363B1 /* ModelCollectionViewCell.xib */; };
+		5BC50F4F29397962005363B1 /* Model3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC50F4E29397962005363B1 /* Model3D.m */; };
+		5BC50F5429399749005363B1 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F5129399748005363B1 /* toy_car.usdz */; };
+		5BC50F5529399749005363B1 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F5229399749005363B1 /* toy_drummer.usdz */; };
+		5BC50F5629399749005363B1 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5BC50F5329399749005363B1 /* toy_biplane.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +29,18 @@
 		5BC50F2729396FBA005363B1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		5BC50F2929396FBA005363B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5BC50F2A29396FBA005363B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5BC50F2D29396FBA005363B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BC50F2F29396FBC005363B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC50F3229396FBC005363B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BC50F3429396FBC005363B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC50F3529396FBC005363B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC50F4529397211005363B1 /* ModelCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelCollectionViewCell.h; sourceTree = "<group>"; };
+		5BC50F4629397211005363B1 /* ModelCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelCollectionViewCell.m; sourceTree = "<group>"; };
+		5BC50F4729397211005363B1 /* ModelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelCollectionViewCell.xib; sourceTree = "<group>"; };
+		5BC50F4D29397962005363B1 /* Model3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model3D.h; sourceTree = "<group>"; };
+		5BC50F4E29397962005363B1 /* Model3D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model3D.m; sourceTree = "<group>"; };
+		5BC50F5129399748005363B1 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		5BC50F5229399749005363B1 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		5BC50F5329399749005363B1 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +73,50 @@
 		5BC50F2229396FBA005363B1 /* ARObjectivec */ = {
 			isa = PBXGroup;
 			children = (
+				5BC50F502939973A005363B1 /* USDZ */,
+				5BC50F4C29397950005363B1 /* Model */,
+				5BC50F3C293971AD005363B1 /* View */,
 				5BC50F2329396FBA005363B1 /* AppDelegate.h */,
 				5BC50F2429396FBA005363B1 /* AppDelegate.m */,
 				5BC50F2629396FBA005363B1 /* SceneDelegate.h */,
 				5BC50F2729396FBA005363B1 /* SceneDelegate.m */,
 				5BC50F2929396FBA005363B1 /* ViewController.h */,
 				5BC50F2A29396FBA005363B1 /* ViewController.m */,
-				5BC50F2C29396FBA005363B1 /* Main.storyboard */,
 				5BC50F2F29396FBC005363B1 /* Assets.xcassets */,
 				5BC50F3129396FBC005363B1 /* LaunchScreen.storyboard */,
 				5BC50F3429396FBC005363B1 /* Info.plist */,
 				5BC50F3529396FBC005363B1 /* main.m */,
 			);
 			path = ARObjectivec;
+			sourceTree = "<group>";
+		};
+		5BC50F3C293971AD005363B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BC50F4529397211005363B1 /* ModelCollectionViewCell.h */,
+				5BC50F4629397211005363B1 /* ModelCollectionViewCell.m */,
+				5BC50F4729397211005363B1 /* ModelCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BC50F4C29397950005363B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BC50F4D29397962005363B1 /* Model3D.h */,
+				5BC50F4E29397962005363B1 /* Model3D.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BC50F502939973A005363B1 /* USDZ */ = {
+			isa = PBXGroup;
+			children = (
+				5BC50F5329399749005363B1 /* toy_biplane.usdz */,
+				5BC50F5129399748005363B1 /* toy_car.usdz */,
+				5BC50F5229399749005363B1 /* toy_drummer.usdz */,
+			);
+			path = USDZ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +176,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC50F4929397211005363B1 /* ModelCollectionViewCell.xib in Resources */,
+				5BC50F5629399749005363B1 /* toy_biplane.usdz in Resources */,
+				5BC50F5529399749005363B1 /* toy_drummer.usdz in Resources */,
 				5BC50F3329396FBC005363B1 /* LaunchScreen.storyboard in Resources */,
 				5BC50F3029396FBC005363B1 /* Assets.xcassets in Resources */,
-				5BC50F2E29396FBA005363B1 /* Main.storyboard in Resources */,
+				5BC50F5429399749005363B1 /* toy_car.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC50F4F29397962005363B1 /* Model3D.m in Sources */,
 				5BC50F2B29396FBA005363B1 /* ViewController.m in Sources */,
 				5BC50F2529396FBA005363B1 /* AppDelegate.m in Sources */,
 				5BC50F3629396FBC005363B1 /* main.m in Sources */,
+				5BC50F4829397211005363B1 /* ModelCollectionViewCell.m in Sources */,
 				5BC50F2829396FBA005363B1 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,14 +204,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BC50F2C29396FBA005363B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BC50F2D29396FBA005363B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BC50F3129396FBC005363B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,11 +332,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP85979J3B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARObjectivec/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,11 +359,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP85979J3B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ARObjectivec/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
